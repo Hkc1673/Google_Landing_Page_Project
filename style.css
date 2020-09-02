@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+.nav a {
+    color: black;
+}
+.header-right{  
+    float: right;
+}
+
+.header-right #images {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header-left{
+    float: left;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration-line: none;
+  }
+
+a:hover {
+    text-decoration-line: underline;
+  }
+
+#store {
+    padding-left: 10px;
+  }
+
+#apicon {
+    position: relative;
+    top: 10px;
+    right: 5px;
+    opacity: 0.5;
+}
+  
+#apicon:hover{
+    opacity: 1;
+    }
+
+.nav button{
+    margin-right: 10px;
+    background: #4484f1;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #fff;
+    cursor: pointer;
+    border-style: none;
+    height: 30px;
+}
+
+.searchbar{
+    position: relative;
+    width: 580px;
+    margin:auto;
+    padding-top: 200px;
+}
+
+.logo{
+    padding-left: 153px;
+  
+}
+
+.icons{
+    position: relative;
+    margin-top: -35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.icons img{
+    width: 20px;
+    height: 24px;
+}
+
+.searchbar .searchbox{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.searchbar .searchbox .search{
+    width: 100%;
+    padding: 13px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    outline: none;
+}
+
+.search:hover {
+    box-shadow:3px 3px 3px  rgba(71, 71, 71, 0.247);  
+}
+
+.searchbar .searchbox{
+    top: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.mic{
+    float: right; 
+}
+
+.magglass{
+    float: left;
+}
+
+.searchbar button{
+    margin-top: 70px;
+    margin-left: 110px;
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+    border-style: none;
+}
+
+#leftbutton, #rightbutton {
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 15px 10px;
+    border: none;
+  }
+  
+#rightbutton {
+    margin-left: 13px;
+  }
+
+#rightbutton:hover, #leftbutton:hover {
+    box-shadow:1px 1px 1px 1px rgb(194, 188, 188); 
+    color: black;
+  }
+.searchbar p {
+    margin-top: 20px;
+    font-size: 13px; 
+    margin-left: 155px;
+}
+
+.searchbar p a{
+  color: blue;
+  text-decoration-line: underline;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f2f2f2;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+.footertop {
+    padding: 10px 15px;
+}
+
+.footertop a {
+    text-decoration-line: none;
+}
+
+
+.footer-right{
+    float: right;
+    padding: 10px 15px;
+    
+}
+hr {
+    opacity: 0.3;
+}
+.footer-left{
+    float: left;
+    padding: 10px 15px;
+}
+#business, #terms {
+    padding-left: 15px;
+    padding-right: 15px;
+}
